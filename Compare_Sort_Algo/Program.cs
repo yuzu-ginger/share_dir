@@ -9,9 +9,8 @@ namespace Compare_Sort_Algo
         static StreamWriter sw;
         static void Main(string[] args)
         {
-            sw = new StreamWriter("result.csv");
-            // ヘッダ
-            sw.WriteLine("SortName,AvgTicks,AvgComparisons,MaxDepth");
+            sw = new StreamWriter("C:/Users/nina/Documents/result.csv");
+            
             // 配列の要素数
             int[] sizes = { 10, 100, 1000, 10000, 100000, 1000000 };
 
@@ -24,10 +23,28 @@ namespace Compare_Sort_Algo
 
                 var runner = new BenchmarkRunner();
 
+                sw.WriteLine();
+                sw.WriteLine($"N={n},Random");
+                sw.WriteLine("SortName,AvgTicks,AvgComparisons,MaxDepth");
                 RunPattern("Random", DataGenerator.Random(n), runner);
+
+                sw.WriteLine();
+                sw.WriteLine($"N={n},Sorted");
+                sw.WriteLine("SortName,AvgTicks,AvgComparisons,MaxDepth");
                 RunPattern("Sorted", DataGenerator.Sorted(n), runner);
+
+                sw.WriteLine();
+                sw.WriteLine($"N={n},Reverse");
+                sw.WriteLine("SortName,AvgTicks,AvgComparisons,MaxDepth");
                 RunPattern("Reverse", DataGenerator.Reverse(n), runner);
+
+                sw.WriteLine();
+                sw.WriteLine($"N={n},Duplicates");
+                sw.WriteLine("SortName,AvgTicks,AvgComparisons,MaxDepth");
                 RunPattern("Duplicates", DataGenerator.Duplicates(n), runner);
+
+                sw.WriteLine();
+
             }
             sw.Close();
         }
