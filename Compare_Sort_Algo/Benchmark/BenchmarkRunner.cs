@@ -9,14 +9,15 @@ namespace Compare_Sort_Algo.Benchmark
         /// </summary>
         /// <param name="sortName">ソートの名前</param>
         /// <param name="original">元の配列</param>
+        /// <param name="patternName">配列のパターンの名前</param>
         /// <param name="sortFunc">ソートを実行する関数</param>
         /// <returns>BenchmarkResult クラスのインスタンス</returns>
-        public BenchmarkResult RunTest(string sortName, int[] original, Action<int[], Counter> sortFunc)
+        public BenchmarkResult RunTest(string sortName, int[] original, string patternName, Action<int[], Counter> sortFunc)
         {
             // 遅いのでスキップ
             if (original.Length > 10000 && sortName == "Insertion")
             {
-                return BenchmarkResult.Skip(sortName, original.Length);
+                return BenchmarkResult.Skip(sortName, original.Length, patternName);
             }
 
             // 配列サイズに応じて同じ条件でソートを実行する回数を変える
@@ -59,6 +60,7 @@ namespace Compare_Sort_Algo.Benchmark
             return new BenchmarkResult(
                 sortName,
                 original.Length,
+                patternName,
                 totalTicks / repeat,       // 実行時間の平均
                 totalComparisons / repeat, // 比較回数の平均
                 maxDepth

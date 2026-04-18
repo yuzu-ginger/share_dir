@@ -59,7 +59,7 @@
             int[] array = new int[n];
             for (int i = 0; i < n; i++)
             {
-                array[i] = i % 5;
+                array[i] = i % 3;
             }
             return array;
         }

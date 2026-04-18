@@ -9,8 +9,9 @@ namespace Compare_Sort_Algo
         static StreamWriter sw;
         static void Main(string[] args)
         {
-            sw = new StreamWriter("C:/Users/nina/Documents/result.csv");
-            
+            sw = new StreamWriter("C:/Users/nina/Documents/result1.csv");
+            sw.WriteLine("N,PatternName,SortName,AvgTicks,AvgComparisons,MaxDepth");
+
             // 配列の要素数
             int[] sizes = { 10, 100, 1000, 10000, 100000, 1000000 };
 
@@ -23,28 +24,10 @@ namespace Compare_Sort_Algo
 
                 var runner = new BenchmarkRunner();
 
-                sw.WriteLine();
-                sw.WriteLine($"N={n},Random");
-                sw.WriteLine("SortName,AvgTicks,AvgComparisons,MaxDepth");
                 RunPattern("Random", DataGenerator.Random(n), runner);
-
-                sw.WriteLine();
-                sw.WriteLine($"N={n},Sorted");
-                sw.WriteLine("SortName,AvgTicks,AvgComparisons,MaxDepth");
                 RunPattern("Sorted", DataGenerator.Sorted(n), runner);
-
-                sw.WriteLine();
-                sw.WriteLine($"N={n},Reverse");
-                sw.WriteLine("SortName,AvgTicks,AvgComparisons,MaxDepth");
                 RunPattern("Reverse", DataGenerator.Reverse(n), runner);
-
-                sw.WriteLine();
-                sw.WriteLine($"N={n},Duplicates");
-                sw.WriteLine("SortName,AvgTicks,AvgComparisons,MaxDepth");
                 RunPattern("Duplicates", DataGenerator.Duplicates(n), runner);
-
-                sw.WriteLine();
-
             }
             sw.Close();
         }
@@ -53,7 +36,6 @@ namespace Compare_Sort_Algo
         /// 結果を表示するメソッド
         /// </summary>
         /// <param name="result">BenchmarkResultのインスタンス</param>
-        /*
         static void PrintResult(BenchmarkResult result)
         {
             Console.WriteLine(
@@ -62,13 +44,8 @@ namespace Compare_Sort_Algo
                 $"Comp: {result.AvgComparisons,10}  " +
                 $"Depth: {result.MaxDepth}"
             );
-        }
-        */
-
-        static void PrintResult(BenchmarkResult result)
-        {
             sw.WriteLine(
-                $"{result.SortName},{result.AvgTicks},{result.AvgComparisons},{result.MaxDepth}"
+                $"{result.N},{result.PatternName},{result.SortName},{result.AvgTicks},{result.AvgComparisons},{result.MaxDepth}"
             );
         }
 
@@ -84,37 +61,37 @@ namespace Compare_Sort_Algo
             
             // クイックソート
             var quick = new QuickSort();
-            var quickResult = runner.RunTest("Quick", data, quick.Sort);
+            var quickResult = runner.RunTest("Quick", data, patternName, quick.Sort);
             PrintResult(quickResult);
 
             // ヒープソート
             var heap = new HeapSort();
-            var heapResult = runner.RunTest("Heap", data, heap.Sort);
+            var heapResult = runner.RunTest("Heap", data, patternName, heap.Sort);
             PrintResult(heapResult);
             
             // 挿入ソート
             var insertion = new InsertionSort();
-            var insertionResult = runner.RunTest("Insertion", data, insertion.Sort);
+            var insertionResult = runner.RunTest("Insertion", data, patternName, insertion.Sort);
             PrintResult(insertionResult);
 
             // クイック + 挿入ソート
             var quickInsertion = new QuickInsertionSort();
-            var quickInsertionResult = runner.RunTest("Quick + Insert", data, quickInsertion.Sort);
+            var quickInsertionResult = runner.RunTest("Quick + Insert", data, patternName, quickInsertion.Sort);
             PrintResult(quickInsertionResult);
 
             // クイック + ヒープ
             var quickHeap = new QuickHeapSort();
-            var quickHeapResult = runner.RunTest("Quick + Heap", data, quickHeap.Sort);
+            var quickHeapResult = runner.RunTest("Quick + Heap", data, patternName, quickHeap.Sort);
             PrintResult(quickHeapResult);
 
             // イントロソート（自作）
             var intro = new IntroSort();
-            var introResult = runner.RunTest("IntroSort", data, intro.Sort);
+            var introResult = runner.RunTest("IntroSort", data, patternName, intro.Sort);
             PrintResult(introResult);
 
             // Array.Sort (.NET)
             var dotNetArraySort = new DotNetArraySort();
-            var dotNetArraySortResult = runner.RunTest("Array.Sort", data, dotNetArraySort.Sort);
+            var dotNetArraySortResult = runner.RunTest("Array.Sort", data, patternName, dotNetArraySort.Sort);
             PrintResult(dotNetArraySortResult);
         }
     }
