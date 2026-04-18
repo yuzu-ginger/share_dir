@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nina\\source\\repos\\Compare_Sort\\Compare_Sort_Algo\\Compare_Sort_Algo.csproj": {}
+    "C:\\home\\share\\Compare_Sort_Algo\\Compare_Sort_Algo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nina\\source\\repos\\Compare_Sort\\Compare_Sort_Algo\\Compare_Sort_Algo.csproj": {
+    "C:\\home\\share\\Compare_Sort_Algo\\Compare_Sort_Algo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nina\\source\\repos\\Compare_Sort\\Compare_Sort_Algo\\Compare_Sort_Algo.csproj",
+        "projectUniqueName": "C:\\home\\share\\Compare_Sort_Algo\\Compare_Sort_Algo.csproj",
         "projectName": "Compare_Sort_Algo",
-        "projectPath": "C:\\Users\\nina\\source\\repos\\Compare_Sort\\Compare_Sort_Algo\\Compare_Sort_Algo.csproj",
+        "projectPath": "C:\\home\\share\\Compare_Sort_Algo\\Compare_Sort_Algo.csproj",
         "packagesPath": "C:\\Users\\nina\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nina\\source\\repos\\Compare_Sort\\Compare_Sort_Algo\\obj\\",
+        "outputPath": "C:\\home\\share\\Compare_Sort_Algo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -60,12 +60,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.26, 8.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.26, 8.0.26]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.26, 8.0.26]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.26, 8.0.26]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

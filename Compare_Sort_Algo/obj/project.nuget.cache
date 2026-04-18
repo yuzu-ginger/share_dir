@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "uXQcwNIeOYs=",
+  "dgSpecHash": "AuWJ0Ft41Ps=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nina\\source\\repos\\Compare_Sort\\Compare_Sort_Algo\\Compare_Sort_Algo.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\home\\share\\Compare_Sort_Algo\\Compare_Sort_Algo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nina\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.26\\microsoft.netcore.app.ref.8.0.26.nupkg.sha512",
+    "C:\\Users\\nina\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.26\\microsoft.windowsdesktop.app.ref.8.0.26.nupkg.sha512",
+    "C:\\Users\\nina\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.26\\microsoft.aspnetcore.app.ref.8.0.26.nupkg.sha512",
+    "C:\\Users\\nina\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.26\\microsoft.netcore.app.host.win-x64.8.0.26.nupkg.sha512"
+  ],
   "logs": []
 }

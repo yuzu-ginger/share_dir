@@ -6,8 +6,12 @@ namespace Compare_Sort_Algo
 {
     internal class Program
     {
+        static StreamWriter sw;
         static void Main(string[] args)
         {
+            sw = new StreamWriter("result.csv");
+            // ヘッダ
+            sw.WriteLine("SortName,AvgTicks,AvgComparisons,MaxDepth");
             // 配列の要素数
             int[] sizes = { 10, 100, 1000, 10000, 100000, 1000000 };
 
@@ -25,12 +29,14 @@ namespace Compare_Sort_Algo
                 RunPattern("Reverse", DataGenerator.Reverse(n), runner);
                 RunPattern("Duplicates", DataGenerator.Duplicates(n), runner);
             }
+            sw.Close();
         }
 
         /// <summary>
         /// 結果を表示するメソッド
         /// </summary>
         /// <param name="result">BenchmarkResultのインスタンス</param>
+        /*
         static void PrintResult(BenchmarkResult result)
         {
             Console.WriteLine(
@@ -38,6 +44,14 @@ namespace Compare_Sort_Algo
                 $"Time: {result.AvgTicks,8} ticks  " +
                 $"Comp: {result.AvgComparisons,10}  " +
                 $"Depth: {result.MaxDepth}"
+            );
+        }
+        */
+
+        static void PrintResult(BenchmarkResult result)
+        {
+            sw.WriteLine(
+                $"{result.SortName},{result.AvgTicks},{result.AvgComparisons},{result.MaxDepth}"
             );
         }
 
