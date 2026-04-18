@@ -1,0 +1,169 @@
+SortName,AvgTicks,AvgComparisons,MaxDepth
+Quick,8,42,5
+Heap,11,40,0
+Insertion,4,32,0
+Quick + Insert,4,32,1
+Quick + Heap,10,42,5
+IntroSort,3,32,1
+Array.Sort,2,0,0
+Quick,5,31,3
+Heap,13,41,0
+Insertion,1,9,0
+Quick + Insert,1,9,1
+Quick + Heap,5,31,3
+IntroSort,1,9,1
+Array.Sort,0,0,0
+Quick,9,34,3
+Heap,10,35,0
+Insertion,5,45,0
+Quick + Insert,5,45,1
+Quick + Heap,7,34,3
+IntroSort,9,45,1
+Array.Sort,1,0,0
+Quick,8,54,7
+Heap,8,39,0
+Insertion,1,19,0
+Quick + Insert,2,19,1
+Quick + Heap,12,53,7
+IntroSort,3,19,1
+Array.Sort,0,0,0
+Quick,165,825,10
+Heap,350,1030,0
+Insertion,212,2623,0
+Quick + Insert,109,730,7
+Quick + Heap,175,825,10
+IntroSort,114,730,7
+Array.Sort,11,0,0
+Quick,69,606,6
+Heap,248,1081,0
+Insertion,7,99,0
+Quick + Insert,38,388,4
+Quick + Heap,101,606,6
+IntroSort,46,388,4
+Array.Sort,3,0,0
+Quick,81,610,6
+Heap,204,944,0
+Insertion,328,4950,0
+Quick + Insert,40,390,4
+Quick + Heap,145,610,6
+IntroSort,59,390,4
+Array.Sort,5,0,0
+Quick,154,702,9
+Heap,228,921,0
+Insertion,125,1999,0
+Quick + Insert,69,518,5
+Quick + Heap,117,702,9
+IntroSort,61,518,5
+Array.Sort,4,0,0
+Quick,2552,15418,25
+Heap,4076,16808,0
+Insertion,18144,259570,0
+Quick + Insert,2032,14307,19
+Quick + Heap,2611,15318,19
+IntroSort,2007,14307,19
+Array.Sort,561,0,0
+Quick,1197,9009,9
+Heap,4547,17583,0
+Insertion,89,999,0
+Quick + Insert,945,6879,7
+Quick + Heap,1341,9009,9
+IntroSort,951,6879,7
+Array.Sort,96,0,0
+Quick,1094,9016,9
+Heap,3319,15965,0
+Insertion,27466,499500,0
+Quick + Insert,543,6884,7
+Quick + Heap,811,9016,9
+IntroSort,541,6884,7
+Array.Sort,73,0,0
+Quick,1484,10086,14
+Heap,2735,14352,0
+Insertion,11115,199999,0
+Quick + Insert,846,7815,11
+Quick + Heap,1220,10086,14
+IntroSort,877,7815,11
+Array.Sort,97,0,0
+Quick,26671,180765,30
+Heap,42397,235499,0
+Insertion,1473876,24986921,0
+Quick + Insert,23042,170407,25
+Quick + Heap,37014,180671,27
+IntroSort,28393,170407,25
+Array.Sort,5639,0,0
+Quick,12276,125439,13
+Heap,44891,244460,0
+Insertion,743,9999,0
+Quick + Insert,9582,107963,11
+Quick + Heap,11933,125439,13
+IntroSort,9153,107963,11
+Array.Sort,621,0,0
+Quick,12727,125452,13
+Heap,46584,226682,0
+Insertion,3111048,49995000,0
+Quick + Insert,9344,107972,11
+Quick + Heap,11585,125452,13
+IntroSort,9397,107972,11
+Array.Sort,1089,0,0
+Quick,19077,137025,20
+Heap,48405,196022,0
+Insertion,1170589,19999999,0
+Quick + Insert,12261,115552,16
+Quick + Heap,18228,137025,20
+IntroSort,14069,115552,16
+Array.Sort,1783,0,0
+Quick,341058,2307703,43
+Heap,620972,3019647,0
+Insertion,-1,-1,-1
+Quick + Insert,316831,2199891,36
+Quick + Heap,326193,2307043,33
+IntroSort,277752,2200017,33
+Array.Sort,63677,0,0
+Quick,145187,1600016,16
+Heap,556419,3112517,0
+Insertion,-1,-1,-1
+Quick + Insert,109694,1383630,14
+Quick + Heap,144144,1600016,16
+IntroSort,110406,1383630,14
+Array.Sort,7051,0,0
+Quick,142556,1600030,16
+Heap,497788,2926640,0
+Insertion,-1,-1,-1
+Quick + Insert,107682,1383642,14
+Quick + Heap,141999,1600030,16
+IntroSort,107717,1383642,14
+Array.Sort,11028,0,0
+Quick,195527,1722599,24
+Heap,448445,2474315,0
+Insertion,-1,-1,-1
+Quick + Insert,178889,1502059,21
+Quick + Heap,213014,1722599,24
+IntroSort,163679,1502059,21
+Array.Sort,19786,0,0
+Quick,3977106,26959265,50
+Heap,7836021,36793577,0
+Insertion,-1,-1,-1
+Quick + Insert,3110415,25884270,45
+Quick + Heap,3464184,26954671,39
+IntroSort,2979464,25885246,39
+Array.Sort,717772,0,0
+Quick,1510972,19000019,19
+Heap,6513738,37692069,0
+Insertion,-1,-1,-1
+Quick + Insert,1316775,16868945,17
+Quick + Heap,1671284,19000019,19
+IntroSort,1383852,16868945,17
+Array.Sort,81579,0,0
+Quick,1667306,19000036,19
+Heap,6333974,36001436,0
+Insertion,-1,-1,-1
+Quick + Insert,1450081,16868960,17
+Quick + Heap,1696235,19000036,19
+IntroSort,1358657,16868960,17
+Array.Sort,140139,0,0
+Quick,3382584,19932866,28
+Heap,5745979,29891867,0
+Insertion,-1,-1,-1
+Quick + Insert,1838252,17819721,25
+Quick + Heap,2241455,19932866,28
+IntroSort,1846500,17819721,25
+Array.Sort,190348,0,0
