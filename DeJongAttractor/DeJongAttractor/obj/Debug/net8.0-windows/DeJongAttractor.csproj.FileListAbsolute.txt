@@ -1,0 +1,16 @@
+C:\Users\nina\source\repos\DeJongAttractor\DeJongAttractor\bin\Debug\net8.0-windows\DeJongAttractor.exe
+C:\Users\nina\source\repos\DeJongAttractor\DeJongAttractor\bin\Debug\net8.0-windows\DeJongAttractor.deps.json
+C:\Users\nina\source\repos\DeJongAttractor\DeJongAttractor\bin\Debug\net8.0-windows\DeJongAttractor.runtimeconfig.json
+C:\Users\nina\source\repos\DeJongAttractor\DeJongAttractor\bin\Debug\net8.0-windows\DeJongAttractor.dll
+C:\Users\nina\source\repos\DeJongAttractor\DeJongAttractor\bin\Debug\net8.0-windows\DeJongAttractor.pdb
+C:\Users\nina\source\repos\DeJongAttractor\DeJongAttractor\obj\Debug\net8.0-windows\DeJongAttractor.Form1.resources
+C:\Users\nina\source\repos\DeJongAttractor\DeJongAttractor\obj\Debug\net8.0-windows\DeJongAttractor.csproj.GenerateResource.cache
+C:\Users\nina\source\repos\DeJongAttractor\DeJongAttractor\obj\Debug\net8.0-windows\DeJongAttractor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nina\source\repos\DeJongAttractor\DeJongAttractor\obj\Debug\net8.0-windows\DeJongAttractor.AssemblyInfoInputs.cache
+C:\Users\nina\source\repos\DeJongAttractor\DeJongAttractor\obj\Debug\net8.0-windows\DeJongAttractor.AssemblyInfo.cs
+C:\Users\nina\source\repos\DeJongAttractor\DeJongAttractor\obj\Debug\net8.0-windows\DeJongAttractor.csproj.CoreCompileInputs.cache
+C:\Users\nina\source\repos\DeJongAttractor\DeJongAttractor\obj\Debug\net8.0-windows\DeJongAttractor.dll
+C:\Users\nina\source\repos\DeJongAttractor\DeJongAttractor\obj\Debug\net8.0-windows\refint\DeJongAttractor.dll
+C:\Users\nina\source\repos\DeJongAttractor\DeJongAttractor\obj\Debug\net8.0-windows\DeJongAttractor.pdb
+C:\Users\nina\source\repos\DeJongAttractor\DeJongAttractor\obj\Debug\net8.0-windows\DeJongAttractor.genruntimeconfig.cache
+C:\Users\nina\source\repos\DeJongAttractor\DeJongAttractor\obj\Debug\net8.0-windows\ref\DeJongAttractor.dll
