@@ -25,3 +25,54 @@ case QuizMode.ChoiceQuiz
 return view;
 ```
 
+正解表示
+```csharp
+private async Task ShowResultAsync(
+    bool isCorrect)
+{
+    resultLabel.Text =
+        isCorrect ? "○" : "×";
+
+    resultLabel.Visible = true;
+
+    await Task.Delay(1000);
+
+    resultLabel.Visible = false;
+}
+
+// 呼び出し側 ===========
+private async void ChoiceButton_Click(
+    object? sender,
+    EventArgs e)
+{
+    bool isCorrect = CheckAnswer();
+
+    await ShowResultAsync(isCorrect);
+
+    nextButton.Enabled = true;
+}
+
+// 組み合わせクイズでは===================
+private async void PairSelected()
+{
+    bool isCorrect =
+        _session.CheckPair();
+
+    if (!isCorrect)
+    {
+        firstButton.BackColor =
+            Color.LightPink;
+
+        secondButton.BackColor =
+            Color.LightPink;
+
+        await Task.Delay(500);
+
+        firstButton.BackColor =
+            _defaultColor;
+
+        secondButton.BackColor =
+            _defaultColor;
+    }
+}
+```
