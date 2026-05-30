@@ -1,0 +1,12 @@
+## To Do
+- [ ] クイズの名前を変更する
+    - FlashCard
+    - ChoiceQuiz
+    - WrittenQuiz
+    - MatchingQuiz
+- [ ] 出題設定の項目名を変更
+    - QuestionField
+    - AnswerField
+    - QuestionCount
+- [] QuizViewにTitleプロパティを設定
+- [] QuizSettingViewのnextButtonを_startButtonに変更。テキストは「スタート」

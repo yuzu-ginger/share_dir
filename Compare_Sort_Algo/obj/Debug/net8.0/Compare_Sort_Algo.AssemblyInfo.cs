@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Compare_Sort_Algo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b870194a75ac326af5406f388444a8bb8c3c222")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4926bf42a42c5d4e9a19c94036b82cd75f0c54ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("Compare_Sort_Algo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Compare_Sort_Algo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

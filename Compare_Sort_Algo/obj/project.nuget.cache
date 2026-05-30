@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "kFnY29Kf2V0=",
+  "dgSpecHash": "p9qgh3My8ME=",
   "success": true,
   "projectFilePath": "C:\\home\\share\\Compare_Sort_Algo\\Compare_Sort_Algo.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\nina\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.26\\microsoft.windowsdesktop.app.ref.8.0.26.nupkg.sha512"
+  ],
   "logs": []
 }
