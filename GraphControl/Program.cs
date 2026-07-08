@@ -1,4 +1,4 @@
-namespace DeJongAttractor
+namespace GraphControl
 {
     internal static class Program
     {
