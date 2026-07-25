@@ -1,3 +1,10 @@
 <Solution>
+  <Folder Name="/CodeAnalyzer/">
+    <Project Path="../TestAnalyzer/TestAnalyzer.CodeFixes/TestAnalyzer.CodeFixes.csproj" Id="0a24f2d4-2f4d-45e9-b8e1-dadfeecb9fa0" />
+    <Project Path="../TestAnalyzer/TestAnalyzer.Package/TestAnalyzer.Package.csproj" Id="b8a8009b-6d6a-4d13-87df-893406a1fe27" />
+    <Project Path="../TestAnalyzer/TestAnalyzer.Test/TestAnalyzer.Test.csproj" Id="ae93bb39-200e-4ed0-a2c8-3061ae9f1d5a" />
+    <Project Path="../TestAnalyzer/TestAnalyzer.Vsix/TestAnalyzer.Vsix.csproj" Id="be744f51-408c-46d2-8445-2adbad2d6757" />
+    <Project Path="../TestAnalyzer/TestAnalyzer/TestAnalyzer.csproj" Id="f6807c23-1f2b-4903-a903-86aaef2a9d3d" />
+  </Folder>
   <Project Path="GraphControl.csproj" />
 </Solution>
